@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         buttonCall.setOnClickListener() {
-            Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:9054697454")).apply {
+            Intent(Intent.ACTION_DIAL).setData(Uri.parse("tel:7383590175")).apply {
                 startActivity(this)
             }
         }
